@@ -29,7 +29,8 @@ will render like this:
 ```
 
 The "1fc6e32" part will change whenever "main.min.js" changes. Now you can
-configure long cache expiration dates on your static files!
+configure long cache expiration dates on your static files with a header like
+`Cache-Control: max-age=31536000`!
 
 # Motivation
 
